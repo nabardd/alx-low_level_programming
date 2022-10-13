@@ -2,7 +2,7 @@
 /**
  * main - function that prints the sizes of various c types
  *
- * Return 0
+ * Return: 0
  */
 
 int main(void)
