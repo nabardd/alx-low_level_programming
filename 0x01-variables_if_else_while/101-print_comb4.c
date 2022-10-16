@@ -16,7 +16,7 @@ int main(void)
 
 	for (; i < 1000; i++)
 	{
-		first = i / 1000;
+		first = i / 100;
 		middle = (i / 10) % 10;
 		last = i % 10;
 
