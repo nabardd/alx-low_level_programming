@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main -  function that prints all possible 
+ * main - function that prints all possible
  * combinations of two two-digit numbers.
  *
- * Return: 0, different combinations. 
+ * Return: 0, different combinations.
 */
 
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 			putchar(f_second + '0');
 			putchar(32);
 
-			while(s_first <= 9)
+			while (s_first <= 9)
 			{
 				putchar(s_first + '0');
 
