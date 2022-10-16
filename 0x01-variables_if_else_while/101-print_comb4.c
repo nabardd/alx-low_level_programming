@@ -26,7 +26,7 @@ int main(void)
 			putchar(middle + '0');
 			putchar(last + '0');
 
-			if (i < 1000)
+			if (i < 700)
 			{
 				putchar(44);
 				putchar(32);
