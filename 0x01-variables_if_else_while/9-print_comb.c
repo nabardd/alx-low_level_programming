@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - function to print all possible combinations 
+ * main - function to print all possible combinations
  * of single-digit numbers
  *
- * Returns: 0, possible combinations of single digit numbers
+ * Return: 0, possible combinations of single digit numbers
 */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	while (i <= 9)
 	{
-		putchar(i +'0');
+		putchar(i + '0');
 
 		if (i < 9)
 		{
