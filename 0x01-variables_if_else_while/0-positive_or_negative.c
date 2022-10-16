@@ -4,7 +4,7 @@
 /**
  * main - function to check if a random number is
  * positive, or negative.
- * 
+ *
  * Return: prints out results and returns 0 on completion
  */
 int main(void)
