@@ -14,7 +14,7 @@ int main(void)
 
 	i = 0;
 
-	while (i < 700)
+	while (i < 1000)
 	{
 		first = i / 1000;
 		middle = (i / 10) % 10;
@@ -31,9 +31,9 @@ int main(void)
 				putchar(44);
 				putchar(32);
 			}
-		}
-
 		i++;
+
+		}
 	}
 
 	putchar('\n');
