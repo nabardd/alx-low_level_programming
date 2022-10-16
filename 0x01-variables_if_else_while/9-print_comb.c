@@ -1,28 +1,28 @@
 #include <stdio.h>
 /**
  * main - function to print all possible combinations 
- *        of single-digit numbers
- * 
+ * of single-digit numbers
+ *
  * Returns: 0, possible combinations of single digit numbers
 */
 
 int main(void)
 {
-  int i = 0;
+	int i = 0;
 
-  while (i <= 9)
-  {
-    putchar(i +'0');
-    
-    if (i < 9)
-    {
-      putchar(44);
-      putchar(32);
-    }
+	while (i <= 9)
+	{
+		putchar(i +'0');
 
-    i++;
-  }
-  putchar("\n");
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		i++;
+	}
 
-  return (0);
+	putchar('\n');
+
+	return (0);
 }
