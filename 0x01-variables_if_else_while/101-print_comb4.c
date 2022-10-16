@@ -14,7 +14,7 @@ int main(void)
 
 	i = 0;
 
-	while (i < 1000)
+	while (i < 700)
 	{
 		first = i / 1000;
 		middle = (i / 10) % 10;
