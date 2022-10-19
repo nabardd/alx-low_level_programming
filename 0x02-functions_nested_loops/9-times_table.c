@@ -21,6 +21,10 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
+			if (line_number == 0 && x !=0)
+			{
+				_putchar(' ');
+			}
 
 			if (y == 0)
 			{
