@@ -2,14 +2,14 @@
 
 /**
  * _isalpha - checks for alphabetic character, uppercase or lowercase.
- * @c - integer representation of the the character to be checked.
+ * @c: integer representation of the the character to be checked.
  *
  * Return: 1 if c is a letter, 0 otherwise.
  */
 
 int _isalpha(int c)
 {
-	if (c >= 97 && c <=122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 
