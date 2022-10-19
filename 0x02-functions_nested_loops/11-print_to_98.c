@@ -6,8 +6,8 @@
  * @n: starting point
  *
  * Description: Numbers must be seperated by a comma, followed by a space
- * 		the first printed number is n,
- * 		and the last printed number is always 98
+ *		the first printed number is n,
+ *		and the last printed number is always 98
  *
  * Return: Always 0
  */
