@@ -22,9 +22,8 @@ void times_table(void)
 				_putchar(' ');
 			}
 
-			if (y == 0 && x != 0)
+			if (y == 0)
 			{
-				_putchar(' ');
 				_putchar(y + '0');
 
 			} else if (y > 9)
@@ -33,6 +32,7 @@ void times_table(void)
 				_putchar(y % 10 + '0');
 			} else
 			{
+				_putchar(' ');
 				_putchar(y + '0');
 			}
 
