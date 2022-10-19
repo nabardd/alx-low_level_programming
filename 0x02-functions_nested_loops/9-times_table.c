@@ -24,6 +24,7 @@ void times_table(void)
 
 			if (y == 0 && x != 0)
 			{
+				_putchar(' ');
 				_putchar(y + '0');
 
 			} else if (y > 9)
