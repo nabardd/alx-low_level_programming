@@ -4,7 +4,6 @@
  *
  * Return: Always 0
  */
-
 void times_table(void)
 {
 	int line_number = 0;
@@ -21,11 +20,10 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
-			if (line_number == 0 && x !=0)
+			if (line_number == 0 && x != 0)
 			{
 				_putchar(' ');
 			}
-
 			if (y == 0)
 			{
 				_putchar(y + '0');
@@ -39,7 +37,6 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(y + '0');
 			}
-
 			if (x != 9)
 			{
 				_putchar(',');
@@ -47,7 +44,6 @@ void times_table(void)
 			x++;
 		}
 		_putchar('\n');
-
 		line_number++;
 	}
 }
