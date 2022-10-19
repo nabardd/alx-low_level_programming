@@ -26,5 +26,5 @@ void print_to_98(int n)
 			n++;
 		}
 	}
-	putchar(98 + '0');
+	putchar("%i", 98);
 }
