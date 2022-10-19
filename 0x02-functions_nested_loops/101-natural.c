@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-void main()
+int main()
 {
 	int i = 0;
 	int sum = 0;
@@ -22,4 +22,6 @@ void main()
 	}
 
 	printf("%i\n", sum);
+
+	return (0);
 }
