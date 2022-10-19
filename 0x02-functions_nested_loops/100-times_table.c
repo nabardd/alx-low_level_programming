@@ -12,46 +12,45 @@
 
 void print_times_tables(int n)
 {
-	if (n > 15 || n < 0)
-	{
-		_putchar(' ');
+	int line_number = n;
+	int x, y;
 
-	} else
+	while (line_number > 15 && line_number > 0)
 	{
-		int lines = 0;
-		int x, y;
-
-		while (lines <= n)
+		x = 0;
+		while (x < 10)
 		{
-			x = 0;
-			
-			while (x <= lines)
+			y = line_number * x;
+
+			if (x != 0)
 			{
-				y = lines * x;
-
-				if (x != 0)
-				{
-					_putchar(' ');
-				}
-				if (y > 9)
-				{
-					_putchar(y / 10 + '0');
-					_putchar(y % 10 + '0');
-				} else
-				{
-					_putchar(y + '0');
-				}
-				if (x != lines)
-				{
-					_putchar(',');
-				}
-
-				x++;
-
+				_putchar(' ');
 			}
-			_putchar('\n');
+			if (line_number == 0 && x != 0)
+			{
+				_putchar(' ');
+			}
+			if (y == 0)
+			{
+				_putchar(y + '0');
 
-			lines++;
+			} else if (y > 9)
+			{
+				_putchar(y / 10 + '0');
+				_putchar(y % 10 + '0');
+			} else
+			{
+				_putchar(' ');
+				_putchar(y + '0');
+			}
+			if (x != 9)
+			{
+				_putchar(',');
+			}
+			x++;
 		}
+		_putchar('\n');
+		line_number++;
 	}
 }
+
