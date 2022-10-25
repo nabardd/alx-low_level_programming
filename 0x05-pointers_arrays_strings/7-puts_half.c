@@ -10,7 +10,7 @@
  *
  * Return: void
  */
-void puts_char(char *str)
+void puts_half(char *str)
 {
 	int i, n, j;
 
