@@ -10,7 +10,7 @@
  *		space.
  *		The numbers should be displayed in the same order as
  *		they are stored in the array.
- * 
+ *
  * Return: void
  */
 void print_array(int *a, int n)
