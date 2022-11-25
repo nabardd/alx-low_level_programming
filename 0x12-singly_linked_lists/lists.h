@@ -1,3 +1,6 @@
+#ifndef CALC_H
+#define CALC_H
+
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -5,7 +8,9 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ * for Holberton project
  */
+
 typedef struct list_s
 {
 	char *str;
@@ -15,3 +20,4 @@ typedef struct list_s
 
 int _putchar(char c);
 size_t print_list(const list *h);
+#endif
