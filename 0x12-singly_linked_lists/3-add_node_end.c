@@ -17,6 +17,8 @@ unsigned int _strlen(char *str)
 	return (i);
 }
 
+extern char* strdup(const char*);
+
 /**
  * *add_node_end - function that adds a new node at the end
  * of a list_t list.
