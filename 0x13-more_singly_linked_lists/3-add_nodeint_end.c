@@ -29,13 +29,13 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 
 	/* Traverse linked list */
-	while (last -> next != NULL)
+	while (last->next != NULL)
 	{
-		last = last -> next;
+		last = last->next;
 	}
 
 	/* Assign last node as new node */
-	last -> next = new;
+	last->next = new;
 
 	return (new);
 
