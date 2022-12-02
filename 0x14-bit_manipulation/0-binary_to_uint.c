@@ -9,30 +9,27 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int i, j;
-	int length, result = 0;
-	int exp = 1;
+	int i, add, length;
 
-	/* Calculating string length */
+	add = 0;
 
-	for (i = 0; b[i] != '\0'; i++)
-		;
-	length = i;
-
-	if (b == NULL)
-		return (0);
-
-	for (i = 0; b[i] != '\0'; i++, length--)
+	if (b != NULL)
 	{
-		if (b[i] != 0 | b[i] != 1)
-			return (0);
-		for (j = length; j > 0; j--)
-			exp = exp * 2;
+		for (length = 0; b[length] != '\0'; length++)
+		{
+			if (b[length] != 48 | b[length != 49])
+				return (0);
+		}
 
-		result = result + (b[i] * (exp));
+		for (i = 0; length >= 0; i++, length--)
+		{
+			add = add + ((b[length] - '0') << 1);
+		}
 
-		exp = 1;
+		return (add);
 	}
-
-	return (result);
+	else
+	{
+		return (0);
+	}
 }
